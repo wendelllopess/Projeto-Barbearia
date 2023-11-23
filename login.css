@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+    body{
+        background-image: url(./assents/capa1.png);
+    }
+
+.container{
+    height: 300px;
+    width: 400px;
+    margin: 0 auto;
+    margin-top: 10rem;
+    background-color: rgb(36, 36, 36);
+    padding: 5px;
+    
+    border: 2px solid rgb(25, 26, 27);
+   
+}
+
+.cabecalho{
+
+ background-color: rgb(25, 26, 27);
+ border: 1px solid rgb(25, 26, 27);
+ border-radius: 5px;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ height: 60px;
+ width: 200px;
+ margin: auto;
+ padding: 10px;
+}
+
+.bemvindo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(208, 210, 212);
+    font-size: 22px;
+    font-weight: 400;
+    font-style: normal;
+}
+
+form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: auto;
+    margin-top: 15px;
+    
+    height: 200px;
+    width: 350px;
+}
+
+input{
+    height: 25px;
+    width: 297px;
+    margin-top: 10px;
+    margin-bottom: 50px;
+    background-color: transparent;
+    border: 2px solid  rgb(25, 26, 27);
+    border-top: none;
+    border-left: none;
+    border-radius: 5px;
+    outline: none;
+    color: white;
+    font-size: 14px;
+    
+}
+
+input::placeholder{
+    color: rgb(148, 148, 148);
+    font-size: 15px;
+    font-weight: normal;
+}
+
+button{
+    height: 80px;
+    width: 183px;
+    background-color: black;
+    color: rgb(148, 148, 148);
+    font-size: 15px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    border: 1px solid black;
+    border-radius: 8px;
+}
+
+button:hover{
+    background-color: rgb(25, 26, 27);
+}
