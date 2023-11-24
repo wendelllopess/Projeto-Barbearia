@@ -14,7 +14,7 @@ body {
     max-width: 400px;
     margin: 0 auto;
     margin-top: 10rem;
-    background-color: rgb(36, 36, 36);
+    background-color: rgba(36, 36, 36, 0.938);
     padding: 32px;
     padding-top:20px ;
     border: 2px solid rgb(25, 26, 27);
@@ -23,7 +23,7 @@ body {
 }
 
 .cabecalho {
-    background-color: rgba(25, 26, 27, 0.39);
+    background-color: rgba(25, 26, 27, 0.644);
     border: 1px solid rgb(25, 26, 27, 0.39);
     border-radius: 5px;
     display: flex;
@@ -65,7 +65,7 @@ input {
     margin-top: 15px;
     padding: 5px;
     background-color: transparent;
-    border: 2px solid rgb(25, 26, 27);
+    border: 2px solid rgb(8, 8, 8);
     border-radius: 8px;
     border-top: none;
     border-left: none;
