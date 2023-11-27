@@ -49,13 +49,33 @@ section {
     padding: 20px;
  
 }
+h2 {
+    color: rgb(255, 255, 255);
+    text-align: center;
+    margin: 0 auto; /* Remova a margem superior para centralizar */
+    position: relative; /* Torna o posicionamento relativo para que os cards se posicionem em relação a este elemento */
+    width: 100%;
+    border: 3px solid rgb(10, 10, 10);
+    background-color: rgba(36, 36, 36, 0.856);
+    border-radius: 8px;
+    
+}
+
+@media only screen and (min-width: 601px) {
+    h2 {
+        top: 0; /* Resetando a posição para dispositivos com largura maior que 600 pixels */
+    }
+}
 
 .card {
+   
     border-radius: 15px;
     background-color: rgba(70, 70, 70, 0.719);
     border: 4px solid rgb(10, 10, 10);
     text-align: center;
-    margin: 12px;
+    margin-top: 15px;
+    margin-left: 5px;
+    margin-right: 5px;
     flex: 1;
 }
 
@@ -80,6 +100,8 @@ section {
         flex: 1 0 100%; /* Ocupar 100% da largura, sem encolher além disso */
     }
 }
+
+
 
 footer {
     background-color: rgba(36, 36, 36, 0.856);
