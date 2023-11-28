@@ -5,11 +5,21 @@
 }
 
 body {
-    background-image: url(./assents/capa.png);
-    margin: 0;
-    padding: 0;
-    font-family: Arial, sans-serif;
+    background-image: url(./assents/capa.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    background-position: left;
+    background-attachment: fixed;
 }
+@media only screen and (max-width: 600px) {
+    body {
+      background-size: cover;
+      height: 100%;
+    }
+  }
+
+  
 
 header {
     background-color: rgba(36, 36, 36, 0.856);
@@ -49,21 +59,22 @@ section {
     padding: 20px;
  
 }
+
 h2 {
     color: rgb(255, 255, 255);
     text-align: center;
-    margin: 0 auto; /* Remova a margem superior para centralizar */
-    position: relative; /* Torna o posicionamento relativo para que os cards se posicionem em relação a este elemento */
+    margin: 0 auto; 
+    position: relative; 
     width: 100%;
     border: 3px solid rgb(10, 10, 10);
     background-color: rgba(36, 36, 36, 0.856);
     border-radius: 8px;
-    
+   
 }
 
 @media only screen and (min-width: 601px) {
     h2 {
-        top: 0; /* Resetando a posição para dispositivos com largura maior que 600 pixels */
+        top: 0; 
     }
 }
 
@@ -77,13 +88,17 @@ h2 {
     margin-left: 5px;
     margin-right: 5px;
     flex: 1;
+    cursor: pointer;
+    
 }
 
 .card img {
     max-width: 100%;
-    height: 210px;
+    height: 350px;
+    width: 350px;
     display: block;
     margin: 0 auto;
+    margin-top: 30px;
 }
 
 .card label {
@@ -99,6 +114,12 @@ h2 {
     .card {
         flex: 1 0 100%; /* Ocupar 100% da largura, sem encolher além disso */
     }
+
+    .card img{
+        width: 310px;
+        height: 210px;
+    }
+
 }
 
 
@@ -119,3 +140,32 @@ footer {
         background-color: rgba(36, 36, 36, 0.856);
     }
 }
+
+  .modal {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+  
+  .modal-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+  }
+  
+  .close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 20px;
+    cursor: pointer;
+  }
+  
