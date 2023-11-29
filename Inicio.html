@@ -39,14 +39,21 @@
 
   </section>
   
+  <!--Modal dos cards -->
+  
   <div id="modal" class="modal">
+    <span class="fecharModal" id="BotaoFecharModal">&times;</span>
     <div class="conteudoModal">
+
+      <h2 class="agendamento">Agendamento</h2>
+
+      <label for="nomeAgendamento">Nome do cliente</label>
+      <input type="text" name="nomeAgendamento" id="nomeAgendamento">
       
-      <span class="fecharModal" id="BotaoFecharModal">&times;</span>
-      <!--Continuar a tela de modal
-      pensar o que fazer e como vai ficar-->
-
-
+      <label for="dataAgendamento">Que dia deseja Deseja?</label>
+      <input type="date" id="dataAgendamento">
+      
+      <button type="submit" id="butaoAgendamento" >Agendar</button>
     </div>
   </div>
 

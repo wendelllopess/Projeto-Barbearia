@@ -3,80 +3,10 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,400;0,500;1,400&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="styles.css">
-  <title>Modal Example</title>
+  <link rel="stylesheet" href="teste.css">
+  <title>Document</title>
 </head>
 <body>
-    <style>
-body {
-  font-family: Arial, sans-serif;
-}
-
-.modal {
-  display: none;
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-color: rgba(0,0,0,0.5);
-}
-
-.modal-content {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  background-color: #fff;
-  padding: 20px;
-  border-radius: 5px;
-}
-
-.close {
-  position: absolute;
-  top: 10px;
-  right: 10px;
-  font-size: 20px;
-  cursor: pointer;
-}
-
-    </style>
-
-  <button id="openModalBtn">Abrir Modal</button>
-
-  <div id="myModal" class="modal">
-    <div class="modal-content">
-      <span class="close" id="closeModalBtn">&times;</span>
-      <p>Conteúdo do Modal aqui.</p>
-    </div>
-  </div>
-
-  <script src="script.js"></script>
-<script>
-    document.addEventListener('DOMContentLoaded', function() {
-  var openModalBtn = document.getElementById('openModalBtn');
-  var closeModalBtn = document.getElementById('closeModalBtn');
-  var modal = document.getElementById('myModal');
-
-  openModalBtn.addEventListener('click', function() {
-    modal.style.display = 'block';
-  });
-
-  closeModalBtn.addEventListener('click', function() {
-    modal.style.display = 'none';
-  });
-
-  // Fechar o modal se clicar fora da área do conteúdo
-  window.addEventListener('click', function(event) {
-    if (event.target === modal) {
-      modal.style.display = 'none';
-    }
-  });
-});
-
-</script>
+  
 </body>
 </html>
