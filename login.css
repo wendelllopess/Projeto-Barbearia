@@ -6,14 +6,16 @@
 
 body {
     background-image: url(./assents/capa.jpeg);
+    height: 80vh;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: left;
+    
 }
 @media only screen and (max-width: 600px) {
     body {
       background-size: cover;
-      height: 75vh; /* ou outra propriedade que funcione melhor para você */
+      height: 75vh; 
     }
   }
   
