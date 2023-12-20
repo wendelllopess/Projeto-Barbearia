@@ -154,3 +154,8 @@ label{
         height: 40px;
     }
 }
+
+a{
+    color: aliceblue;
+    text-decoration: none;
+}
