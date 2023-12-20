@@ -4,12 +4,13 @@
 }
 
 body {
-    background-image: url(./assents/capa.jpeg);
+   /* background-image: url(./assents/capa.jpeg);
     height: 80vh;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: left;
-    
+    */
+    background-color: rgb(9, 7, 7);
 }
 @media only screen and (max-width: 600px) {
     body {
@@ -23,7 +24,7 @@ body {
     color: rgb(255, 255, 255);
     text-align: center;
     margin: 0 auto; 
-    margin-top: 30px;
+    margin-top: 20px;
     position: relative; 
     width: 100%;
     border: 3px solid rgb(10, 10, 10);
@@ -38,7 +39,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 40px;
+    margin-bottom: 40px;
  }
     
 img{
@@ -47,6 +48,26 @@ img{
     height: 120px;
     width: 120px;
     border: 2px solid rgb(8, 8, 8);
-    background-color: rgba(36, 36, 36, 0.719);
+    background-color: rgba(27, 27, 27, 0.719);
+    padding: 8px;
 
+}
+
+.voltar {
+  height: 30px;
+  width: 80px;
+  border: 3px solid rgb(10, 10, 10);
+  background-color: rgba(36, 36, 36, 0.856);
+  border-radius: 8px;
+  margin: 10px;
+  margin-top: 15px;
+  padding: 4px;
+  margin-bottom: 35px;
+  
+}
+
+.voltar a{
+  color: rgb(255, 255, 255); 
+  text-decoration: none;
+  font-size: 17px;
 }

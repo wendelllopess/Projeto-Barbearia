@@ -5,24 +5,23 @@
 }
 
 body {
+   /*
     background-image: url(./assents/capa.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: left;
+    */
+    
+    background-color: rgb(9, 7, 7);
 }
-@media only screen and (max-width: 600px) {
-    body {
-      background-size: cover;
-      height: 96vh; /* ou outra propriedade que funcione melhor para você */
-    }
-  }
-  
+
+
 .container {
     width: 80%;
     max-width: 400px;
     margin: 0 auto;
     margin-top: 3px;
-    background-color: rgba(36, 36, 36, 0.719);
+    background-color: rgba(36, 36, 36, 0.534);
     padding: 20px;
     padding-top:20px ;
     border: 2px solid rgb(25, 26, 27);
@@ -32,12 +31,12 @@ body {
 
 @media screen and (max-width: 600px){
     .container{
-        margin-top: 1.5rem;
+        margin-top: 2rem;
     }
 }
 
 .cabecalho {
-    background-color: rgba(25, 26, 27, 0.719);
+    background-color: rgba(18, 19, 19, 0.854);
     border: 2px solid rgba(25, 26, 27, 0.596);
     border-radius: 5px;
     display: flex;
@@ -73,13 +72,13 @@ form {
 }
 
 input {
-    height: 40px;
+  height: 60px;
     width: 100%;
     margin-bottom: 10px;
     margin-top: 15px;
     padding: 5px;
-    background-color: transparent;
-    border: 2px solid rgb(8, 8, 8);
+    background-color: rgba(29, 29, 29, 0.852);
+    border: 3px solid rgb(8, 8, 8);
     border-radius: 8px;
     border-top: none;
     border-left: none;
@@ -149,7 +148,7 @@ label{
     }
 
     input {
-        height: 30px;
+        height: 35px;
         margin-bottom: 15px;
     }
 
