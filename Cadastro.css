@@ -8,11 +8,9 @@ body {
     /*
    background-color: rgb(9, 7, 7);
     */
-    
     background: linear-gradient(65deg, #0884ff 15%, #ffffff, #ff0f34);
     height: 100vh; 
     margin: 0; 
-    overflow: hidden; 
   }
   
   @media only screen and (max-width: 600px) {
