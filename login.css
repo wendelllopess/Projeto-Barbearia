@@ -13,7 +13,7 @@ body {
    background-color: rgb(9, 7, 7);
     */
     
-    background: linear-gradient(65deg, #0884ff 10%, #ffffff, #ff0f34);
+    background: linear-gradient(65deg, #0884ff 25%, #ffffff, #ff0f34);
     height: 100vh; 
     margin: 0; 
     overflow: hidden; 
@@ -161,6 +161,6 @@ label{
 }
 
 a{
-    color: aliceblue;
+    color: #ffffff;
     text-decoration: none;
 }

@@ -11,6 +11,7 @@ body {
   background: linear-gradient(to right, #0884ff 10%, #ffffff, #ff0f34);
   height: 100vh; 
   margin: 0; 
+  overflow: hidden;
 }
 
 @media only screen and (max-width: 600px) {
@@ -27,7 +28,7 @@ body {
     margin-top: 20px;
     position: relative; 
     width: 100%;
-    border: 3px solid rgb(10, 10, 10);
+    border: 1px solid rgb(10, 10, 10);
     background-color: rgba(36, 36, 36, 0.856);
     border-radius: 8px;
    
@@ -40,6 +41,7 @@ body {
     justify-content: center;
     align-items: center;
     margin-bottom: 40px;
+  
  }
     
 img{
@@ -47,8 +49,8 @@ img{
     border-radius: 10px;
     height: 120px;
     width: 120px;
-    border: 2px solid rgb(8, 8, 8);
-    background-color: rgba(27, 27, 27, 0.719);
+    border: 1px solid rgb(8, 8, 8);
+    background-color: rgba(36, 36, 36, 0.37);
     padding: 8px;
 
 }
@@ -56,7 +58,7 @@ img{
 .voltar {
   height: 30px;
   width: 80px;
-  border: 3px solid rgb(10, 10, 10);
+  border: 1px solid rgb(10, 10, 10);
   background-color: rgba(36, 36, 36, 0.856);
   border-radius: 8px;
   margin: 10px;

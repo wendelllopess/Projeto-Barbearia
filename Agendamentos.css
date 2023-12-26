@@ -1,13 +1,26 @@
-body{
-    background-color: rgb(9, 7, 7);
-}
+body {
+    /*
+   background-color: rgb(9, 7, 7);
+    */
+    
+    background: linear-gradient(to right, #0884ff 10%, #ffffff, #ff0f34);
+    height: 100vh; 
+    margin: 0; 
+  
+  }
+  
+  @media only screen and (max-width: 600px) {
+    body {
+      height: 100vh;
+    }
+  }
 
 h1{
     font-size: 26px;
     padding: 4px;
     color: rgb(255, 255, 255);
     text-align: center;
-    margin: 30px 0 15px 0; 
+    margin: 20px 0 15px 0; 
     position: relative; 
     border: 3px solid rgb(10, 10, 10);
     background-color: rgba(36, 36, 36, 0.856);
@@ -17,7 +30,7 @@ h1{
 }
 
 .itens-agendamento{    
-    background-color: rgba(36, 36, 36, 0.534);
+    background-color: rgba(36, 36, 36, 0.548);
     margin-bottom: 25px;
     padding: 5px;
     border: 2px solid rgb(25, 26, 27);
@@ -30,7 +43,7 @@ h1{
 }
 
 ul{
-    background-color: rgba(29, 29, 29, 0.852);
+    background-color: rgba(50, 49, 49, 0.815);
     padding: 3px;
     border-radius: 8px;
     border: 2px solid rgb(25, 26, 27);
@@ -39,8 +52,8 @@ ul{
 li{
     padding: 2px;
     margin: 10px 0 0;
-    color: rgb(182, 182, 182);
-    border-bottom: 1px solid  rgb(25, 26, 27);
+    color: #ffffff;
+    border-bottom: 1px solid  rgb(24, 25, 26);
 }
 
 #tipoAgendamento{
