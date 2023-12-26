@@ -1,32 +1,36 @@
 * {
-    margin: 0;
     box-sizing: border-box;
     font-family: Arial, sans-serif;
 }
+/*cores para a pagina
 
+azul - #0884ff
+branco -#ffffff
+vermelho - #ff0f34
+*/
 body {
-    /*background-image: url(./assents/capa.jpeg);
-    height: 80vh;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: left;
+    /*
+   background-color: rgb(9, 7, 7);
     */
-    background-color: rgb(9, 7, 7);
-}
-@media only screen and (max-width: 600px) {
-    body {
-      background-size: cover;
-      height: 75vh; 
-    }
+    
+    background: linear-gradient(65deg, #0884ff 10%, #ffffff, #ff0f34);
+    height: 100vh; 
+    margin: 0; 
+    overflow: hidden; 
   }
   
+  @media only screen and (max-width: 600px) {
+    body {
+      height: 100vh;
+    }
+  }
 
 .container {
     width: 80%;
     max-width: 400px;
     margin: 0 auto;
     margin-top: 10rem;
-    background-color: rgba(36, 36, 36, 0.719);
+    background-color: rgba(36, 36, 36, 0.263);   
     padding: 32px;
     padding-top:20px ;
     border: 2px solid rgb(25, 26, 27);
@@ -53,7 +57,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    color: rgb(208, 210, 212);
+    color: #ffffff;
     font-size: 1.5rem;
     font-weight: 400;
     font-style: normal;
@@ -76,19 +80,19 @@ input {
     margin-bottom: 25px;
     margin-top: 15px;
     padding: 5px;
-    background-color: rgba(29, 29, 29, 0.852);
+    background-color:rgba(8, 8, 8, 0.324);
     border: 3px solid rgb(8, 8, 8);
     border-radius: 8px;
     border-top: none;
     border-left: none;
     outline: none;
-    color: rgb(182, 182, 182);
+    color: #ffffff;
     font-size: 14px;
 
 }
 
 input::placeholder {
-    color: rgb(182, 182, 182);
+    color: #ffffff;
     font-size: 15px;
     font-weight: normal;
     padding: 5px;
@@ -99,7 +103,7 @@ button {
     width: 100%;
     margin-top: 1rem;
     background-color: rgb(0, 0, 0);
-    color: rgb(148, 148, 148);
+    color: #ffffff;
     font-size: 15px;
     text-align: center;
     text-decoration: none;
@@ -110,19 +114,20 @@ button {
 }
 
 button:hover {
-    background-color: rgb(8, 8, 8);
+  background-color: #252626;
+
 }
 
 label{
     font-size: 14px;
     margin-top: 20px;
-    color: rgb(131, 130, 130);
+    color: rgb(21, 21, 21);
 }
 
 .cadastro{
     outline: none;
     text-decoration: none;
-    color: rgb(194, 194, 194);
+    color: rgb(0, 0, 0);
     font-size: 13px;
     font-weight: bold;
 }

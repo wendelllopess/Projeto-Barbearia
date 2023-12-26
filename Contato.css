@@ -4,20 +4,20 @@
 }
 
 body {
-   /* background-image: url(./assents/capa.jpeg);
-    height: 80vh;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: left;
-    */
-    background-color: rgb(9, 7, 7);
+  /*
+ background-color: rgb(9, 7, 7);
+  */
+  
+  background: linear-gradient(to right, #0884ff 10%, #ffffff, #ff0f34);
+  height: 100vh; 
+  margin: 0; 
 }
+
 @media only screen and (max-width: 600px) {
-    body {
-      background-size: cover;
-      height: 90vh; 
-    }
+  body {
+    height: 100vh;
   }
+}
   
 
   h1 {
