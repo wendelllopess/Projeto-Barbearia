@@ -7,8 +7,7 @@ body {
   /*
  background-color: rgb(9, 7, 7);
   */
-  
-  background: linear-gradient(to right, #0884ff 10%, #ffffff, #ff0f34);
+  background: linear-gradient(65deg, #0884ff 10%, #ffffff, #ff0f34);
   height: 100vh; 
   margin: 0; 
   overflow: hidden;
@@ -16,9 +15,11 @@ body {
 
 @media only screen and (max-width: 600px) {
   body {
-    height: 100vh;
+    height: 100%;
+    overflow: visible;
   }
 }
+
   
 
   h1 {
