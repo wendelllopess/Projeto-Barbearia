@@ -29,7 +29,7 @@ body {
     width: 80%;
     max-width: 400px;
     margin: 0 auto;
-    margin-top: 10rem;
+    margin-top: 5rem;
     background-color: rgba(36, 36, 36, 0.263);   
     padding: 32px;
     padding-top:20px ;
@@ -135,6 +135,7 @@ label{
 @media screen and (max-width: 600px) {
     .container {
         width: 90%;
+        margin-top: 8rem;
     }
 
     .cabecalho {

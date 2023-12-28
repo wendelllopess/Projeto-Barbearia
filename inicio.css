@@ -150,7 +150,7 @@ footer {
 .modal{
     display: none;
     position: fixed;
-    top: 200px;
+    top: 130px;
     left: 0;
     border: 3px solid rgb(31, 31, 31);
     height: 400px;
