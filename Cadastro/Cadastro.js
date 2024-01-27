@@ -1,4 +1,4 @@
-const formulario = document.getElementById("formulario");
+/*const formulario = document.getElementById("formulario");
 let botaoCadastro = document.getElementById('botaoCadastro');
 
 formulario.addEventListener("submit", (event)=>{
@@ -8,7 +8,7 @@ formulario.addEventListener("submit", (event)=>{
         cadastraUsuario();
 
         setTimeout(()=>{
-            window.location.href="./login.html"
+            window.location.href="login.html"
         }, 2000)
         alert("Usuario cadastrado com sucesso!")
     } else{
@@ -48,3 +48,4 @@ function validarFormulario(){
 }
 
 botaoCadastro.addEventListener('click', cadastraUsuario());
+*/
