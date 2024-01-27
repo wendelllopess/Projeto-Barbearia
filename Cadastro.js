@@ -1,4 +1,4 @@
-/*const formulario = document.getElementById("formulario");
+const formulario = document.getElementById("formulario");
 let botaoCadastro = document.getElementById('botaoCadastro');
 
 formulario.addEventListener("submit", (event)=>{
@@ -48,4 +48,3 @@ function validarFormulario(){
 }
 
 botaoCadastro.addEventListener('click', cadastraUsuario());
-*/
