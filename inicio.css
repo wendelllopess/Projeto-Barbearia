@@ -8,7 +8,7 @@ body {
     /*
    background-color: rgb(9, 7, 7);
     */
-    background: linear-gradient(65deg, #0884ff 10%, #ffffff, #ff0f34);
+    background: linear-gradient(60deg, #1045b9 30%, #3a078bf5);
     height: 100vh; 
     margin: 0; 
     overflow: hidden;
@@ -104,15 +104,19 @@ h2 {
 }
 
 .card label {
-   display: flex;
-   align-items: center;
-   justify-content: center;
-   flex-direction: row;
+    width: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
     margin-top: 5px;
     margin-bottom: 12px;
-    color:#ffffff;
+    color:#000000;
     text-transform: uppercase;
-    font-size: 16px;
+    font-size: 22px;
+    border: 1px solid black;
+    border-width: 1px;
+    
 }
 
 @media only screen and (max-width: 600px) {
@@ -158,7 +162,7 @@ footer {
     margin-left: 40px;
     padding: 20px;
     padding-top: 2px;
-    background: linear-gradient(80deg, #0884ff, #ffffff, #ff0f34);
+    background: linear-gradient(60deg, #1045b9, #3a078bf5 70%);
     box-shadow: 3px 5px 30px rgba(255, 0, 0, 0.36);
     border-radius: 10px;
     
@@ -225,18 +229,6 @@ input {
 
 }
 
-
-label{
-    color:#000000;
-    font-size: 20px;
-    margin-top: 15px;
-}
-
-@media only screen and (max-width: 600px) {
-    label {
-        font-size: 18px;
-    }
-}
 
 button {
     height: 50px;

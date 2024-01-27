@@ -41,9 +41,6 @@ function cadastraUsuario(){
 function validarFormulario(){
     if(nome.value === '' || cpf.value === '' || email.value === '' || telefone.value === '' || senha.value === '' || senhaConfirmacao.value === ''){
         return false;
-    }else if(senha!==senhaConfirmacao){
-        alert("A senha devem ser iguais")
-        return cadastraUsuario;
     }
     else{
         return true
