@@ -25,17 +25,17 @@
     
     <div class="card" id="cardCabelo">
         <img src="assents/cabelo.png" alt="cabelo" id="cabelo">
-        <label for="cabelo">Cabelo</label>
+        <label class="labelCards" for="cabelo">Cabelo</label>
     </div>
    
    <div class="card" id="cardBarba">
         <img src="assents/barba.png" alt="barda" id="barba">
-        <label for="barba">Barba</label>
+        <label class="labelCards" for="barba">Barba</label>
    </div>
 
     <div class="card" id="cardBarbaCabelo">
         <img src="assents/cabeloEbarba.png" alt="barbaCabelo" id="barbaCabelo">
-        <label for="barbaCabelo">Cabelo e Barba</label>
+        <label class="labelCards" for="barbaCabelo">Cabelo e Barba</label>
     </div>
 
   </section>
@@ -49,15 +49,27 @@
       <h2 class="agendamento">Agendamento</h2>
         <form action="#">
          
-          <label for="nomeAgendamento">Nome do cliente</label>
-            <input type="text" name="nomeAgendamento" id="nomeAgendamento">
+          <label class="labelModal" for="nomeAgendamento">Nome do cliente:</label>
+            <input class="inputModal" type="text" name="nomeAgendamento" id="nomeAgendamento">
             
-            <label for="dataAgendamento">Que dia deseja?</label>
-            <input type="datetime-local" id="dataAgendamento">
+            <label class="labelModal" for="dataAgendamento">Que dia deseja?</label>
+            <input class="inputModal" type="date" id="dataAgendamento">
+
+            <label class="labelModal" for="horarioAgendamento">Qual horario?</label>
+            <input class="inputModal" type="time" id="horarioAgendamento">
+
+            <label class="labelModal" for="profissional">Qual profissional?</label>
+            <select name="" id="profissional"  >
+              <option value="" selected >Selecione:</option>
+              <option value="Wendell">Wendell</option>
+              <option value="Chiquinho">Chiquinho</option>
+              <option value="Joaquin">Joaquin</option>
+            </select>
+
 
         
-            
-            <button type="submit" id="butaoAgendamento" >Agendar</button>
+
+            <button  type="submit" id="butaoAgendamento" >Agendar</button>
         </form>
       
     </div>

@@ -103,7 +103,7 @@ h2 {
 
 }
 
- label {
+ .labelCards {
     width: 200px;
     margin: auto;
     margin-bottom: 10px;
@@ -151,19 +151,19 @@ footer {
     }
 }
 
+
+
 .modal{
     display: none;
     position: fixed;
-    top: 130px;
-    left: 0;
-    border: 3px solid rgb(31, 31, 31);
-    height: 400px;
-    width: 90%;
-    margin-left: 40px;
+    top: 15px;
+    border: 1px solid rgb(31, 31, 31);
+    height: 530px;
+    width: 40%;
+    margin-left: 30%;
     padding: 20px;
     padding-top: 2px;
     background: linear-gradient(60deg, #1045b9, #3a078bf5 70%);
-    box-shadow: 3px 5px 30px rgba(255, 0, 0, 0.36);
     border-radius: 10px;
     
 }
@@ -171,7 +171,9 @@ footer {
 @media only screen and (max-width: 600px) {
    .modal{
     margin-left: 15px;
-    top: 90px;
+    top: 50px;
+    height: 530px;
+    width: 90%;
    }
 }
 
@@ -184,6 +186,13 @@ footer {
     padding: 10px;
     padding-top: 2px;
 
+}
+
+.labelModal{
+    width: 200px;
+    color:#080808;
+    font-size: 16px;
+    font-weight: bold;
 }
 
 .fecharModal{
@@ -208,15 +217,16 @@ footer {
     height: 50px;
     margin-top: 3px;
     margin-bottom: 25px;
-    padding: 10px;
+    padding: 8px;
     padding-bottom: 2px;
+    color: #080808;
 }
   
 input {
     height: 40px;
     width: 100%;
-    margin-bottom: 25px;
-    margin-top: 15px;
+    margin-bottom: 20px;
+    margin-top: 5px;
     padding: 5px;
     background-color:rgba(8, 8, 8, 0.324);
     border: 3px solid rgb(8, 8, 8);
@@ -224,18 +234,41 @@ input {
     border-top: none;
     border-left: none;
     outline: none;
-    color:#000000;
-    font-size: 16px;
+    color:#fafafa;
+    font-size: 14px;
     font-style: none;
+    
 
+}
+
+select {
+    height: 40px;
+    width: 100%;
+    margin-bottom: 20px;
+    margin-top: 5px;
+    padding: 5px;
+    background-color: rgba(8, 8, 8, 0.324);
+    border: 3px solid rgb(8, 8, 8);
+    border-radius: 8px;
+    border-top: none;
+    border-left: none;
+    outline: none;
+    color: #fafafa;
+    font-size: 16px;
+}
+
+option {
+    background-color: #2f139e;
+    color: #f8f8f8;
+    font-size: 17px;
 }
 
 
 button {
     height: 50px;
     width: 100%;
-    margin-top: 1rem;
-    background-color:  rgb(0, 0, 0) ;
+    margin-top: 8px;
+    background-color:  rgb(16, 16, 16) ;
     color:#ffffff;
     font-size: 15px;
     text-align: center;
