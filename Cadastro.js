@@ -8,7 +8,7 @@ formulario.addEventListener("submit", (event)=>{
         cadastraUsuario();
 
         setTimeout(()=>{
-            window.location.href="login.html"
+            window.location.href="index.html"
         }, 2000)
         alert("Usuario cadastrado com sucesso!")
     } else{
