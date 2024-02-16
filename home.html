@@ -49,13 +49,23 @@
       <h2 class="agendamento">Agendamento</h2>
         <form action="#">
          
-          <label for="nomeAgendamento">Nome do cliente</label>
+          <label class="labelModal" for="nomeAgendamento">Nome do cliente</label>
             <input type="text" name="nomeAgendamento" id="nomeAgendamento">
             
-            <label for="dataAgendamento">Que dia deseja?</label>
-            <input type="datetime-local" id="dataAgendamento">
+            <label class="labelModal"  for="dataAgendamento">Que dia deseja?</label>
+            <input type="date" id="dataAgendamento">
 
-        
+            <label class="labelModal"  for="horaioAgendamento">Qual horario deseja?</label>
+            <input type="time" id="horaioAgendamento">
+
+            <label class="labelModal"  for="profissional">Qual profissional?</label>
+            <select name="profisional" id="profisional">
+              <option value="" selected >Selecione um profisional:</option>
+              <option value="wendell">wendell</option>
+              <option value="joaquin">joaquin</option>
+              <option value="zeze">zeze</option>
+            </select>
+
             
             <button type="submit" id="butaoAgendamento" >Agendar</button>
         </form>
